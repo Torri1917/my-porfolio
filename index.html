@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лев Савельев · начинающий программист</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <canvas id="bgCanvas"></canvas>
+
+    <main>
+        <div class="container">
+            
+
+            <header>
+                <div class="avatar">
+                    <img src="img/Leone.jpg" alt="Лев Савельев" id="avatarImg">
+                </div>
+                <div class="title">
+                    <h1 id="typingName"></h1>
+                    <p class="badge">второй курс · учусь создавать будущее</p>
+                </div>
+            </header>
+
+
+            <div class="quote-block">
+                <p>«Код — это инструмент. А я учусь владеть им в совершенстве»</p>
+            </div>
+
+
+            <section class="about">
+                <h2>Обо мне</h2>
+                <p>
+                    Меня зовут Лев, мне 18 лет. Я на 2 курсе, но уже точно знаю: 
+                    программирование — это моё. Не жду, когда научат — беру и делаю.
+                </p>
+                <p>
+                    Сейчас мой фокус на <span class="highlight">веб-разработке (HTML/CSS)</span> 
+                    и постепенном погружении в <span class="highlight">C# / .NET</span>. 
+                    Каждый день пишу код, даже если это 30 минут. Результат вижу в своих проектах.
+                </p>
+                <div class="stats">
+                    <div class="stat">
+                        <span class="number">15+</span>
+                        <span class="label">учебных проектов</span>
+                    </div>
+                    <!-- <div class="stat">
+                        <span class="number">3000</span>
+                        <span class="label">месяца активного кодинга</span>
+                    </div> -->
+                    <div class="stat">
+                        <span class="number">∞</span>
+                        <span class="label">желание учиться</span>
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="skills">
+                <h2>Мои навыки сейчас</h2>
+                <div class="skill">
+                    <span>HTML5 / CSS3 (Flex, Grid, анимации)</span>
+                    <div class="bar"><div class="fill html"></div></div>
+                    <span class="percent">75%</span>
+                </div>
+                <div class="skill">
+                    <span>C# / .NET (база, ООП, LINQ)</span>
+                    <div class="bar"><div class="fill csharp"></div></div>
+                    <span class="percent">35%</span>
+                </div>
+                <div class="skill">
+                    <span>Git / GitHub</span>
+                    <div class="bar"><div class="fill git"></div></div>
+                    <span class="percent">50%</span>
+                </div>
+                <div class="skill-note">
+                    * Проценты — не абсолют. Это моя оценка прогресса. Расту каждый день.
+                </div>
+            </section>
+
+
+            <section class="projects">
+                <h2>Проекты</h2>
+                <div class="project-list">
+                    <div class="project-item">
+                        <div class="year">2023</div>
+                        <div class="desc">
+                            <strong>Сайт-визитка</strong> — первый полностью адаптивный сайт с несложными анимациями.
+                            <span class="tech">HTML, CSS</span>
+                        </div>
+                    </div>
+                    <div class="project-item">
+                        <div class="year">2024-2026</div>
+                        <div class="desc">
+                            <strong>Сайт-визитка</strong> —активная разработка первых дизайнов сайтов и разработка полностью адаптивный сайтов с анимациями.
+                            <span class="tech">HTML, CSS, JavaScript</span>
+                        </div>
+                    </div>
+                    <div class="project-item">
+                        <div class="year">2026</div>
+                        <div class="desc">
+                            <strong>Консольный калькулятор на C#</strong> — история операций, обработка ошибок.
+                            <span class="tech">C# / .NET</span>
+                        </div>
+                    </div>
+                    <div class="project-item">
+                        <div class="year">скоро</div>
+                        <div class="desc">
+                            <strong>змейка на C#</strong> — мой первый шаг в бэкенд.
+                            <span class="tech">C#</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+
+            <section class="education">
+                <h2>Образование и развитие</h2>
+                <div class="edu-item">
+                    <div class="year">2024 — сейчас</div>
+                    <div class="desc">
+                        <strong>Колледж, 2 курс</strong> — Информационные системы и програмирование.
+                    </div>
+                </div>
+                <!-- <div class="edu-item">
+                    <div class="year">каждый день</div>
+                    <div class="desc">
+                        <strong>обучение</strong> — активно развиваюсь и 
+                    </div>
+                </div> -->
+            </section>
+
+            <footer>
+                <div class="contact">
+                    <a href="https://t.me/focus_1917" target="_blank">telegram</a>
+                    <span class="divider">//</span>
+                    <a href="mailto:levtorri@yandex.ru">email</a>
+                    <span class="divider">//</span>
+                    <a href="https://github.com/Torri1917" target="_blank">github</a>
+                </div>
+                <div class="easter-egg">
+                    <span id="clickCounter">[ кликни сюда → 0 ]</span>
+                </div>
+            </footer>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
